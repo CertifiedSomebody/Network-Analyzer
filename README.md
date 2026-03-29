@@ -41,8 +41,6 @@ NetScope identifies malicious patterns using a time-windowed detection logic:
 * **Network Security:** Hands-on application of IDS/IPS logic.
 * **Flow Control:** Understanding how packet rates impact network stability.
 
----
-
 ## 🏗️ Project Structure
 NetScope/
 ├── main.py              # Application Entry Point
@@ -59,7 +57,6 @@ NetScope/
 └── data/
     └── alerts.log       # Persistent threat history
 
----
 
 ## ⚙️ Installation & Usage
 
@@ -81,9 +78,10 @@ pip install scapy
 ```
 
 ### 3. Run
-\`\`\`bash
+
+Run the app
 # Note: Root/Admin privileges are required for packet sniffing
-\`\`\`
+
 
 ---
 
