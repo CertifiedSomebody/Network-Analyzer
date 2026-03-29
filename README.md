@@ -44,7 +44,6 @@ NetScope identifies malicious patterns using a time-windowed detection logic:
 ---
 
 ## 🏗️ Project Structure
-\`\`\`text
 NetScope/
 ├── main.py              # Application Entry Point
 ├── core/
@@ -59,7 +58,6 @@ NetScope/
 │   └── logger.py        # Thread-safe logging system
 └── data/
     └── alerts.log       # Persistent threat history
-\`\`\`
 
 ---
 
@@ -71,19 +69,20 @@ NetScope/
 * **Libpcap (Linux/Mac):** Usually pre-installed or available via \`apt install libpcap-dev\`.
 
 ### 2. Setup
-\`\`\`bash
+```
 # Clone the repository
 git clone <your-repo-link>
 cd NetScope
+```
 
 # Install dependencies
+```
 pip install scapy
-\`\`\`
+```
 
 ### 3. Run
 \`\`\`bash
 # Note: Root/Admin privileges are required for packet sniffing
-python main.py
 \`\`\`
 
 ---
