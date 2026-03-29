@@ -1,0 +1,70 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+dist/
+
+# =========================
+# Logs & Data
+# =========================
+data/
+*.log
+logs/
+*.txt
+.spec
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Misc
+# =========================
+*.env
+*.key
+*.pem
+
+# =========================
+# Network / Capture Files
+# =========================
+*.pcap
+*.pcapng
+
+# =========================
+# Temporary Files
+# =========================
+*.swp
+*.swo
+*.tmp
