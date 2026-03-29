@@ -41,21 +41,6 @@ NetScope identifies malicious patterns using a time-windowed detection logic:
 * **Network Security:** Hands-on application of IDS/IPS logic.
 * **Flow Control:** Understanding how packet rates impact network stability.
 
-## 🏗️ Project Structure
-NetScope/
-├── main.py              # Application Entry Point
-├── core/
-│   ├── sniffer.py       # Scapy-based capture engine
-│   ├── analyzer.py      # Protocol & Traffic logic
-│   └── detector.py      # IDS Rule engine
-├── gui/
-│   ├── app.py           # Main Tkinter Window
-│   └── components.py    # Custom UI Widgets
-├── utils/
-│   ├── helpers.py       # Data formatting
-│   └── logger.py        # Thread-safe logging system
-└── data/
-    └── alerts.log       # Persistent threat history
 
 
 ## ⚙️ Installation & Usage
